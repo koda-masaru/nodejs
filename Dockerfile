@@ -1,4 +1,4 @@
-FROM node:12.13.1-buster-slim
+FROM node:12.14.0-buster-slim
 
 RUN apt update && apt-get install -y \
   python3 && \
